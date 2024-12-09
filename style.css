@@ -1,0 +1,84 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Mantengo la fuente divertida */
+    background-color: #e6f2ff; /* Fondo suave de azul claro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF; /* Azul brillante para el encabezado */
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 28px;
+    border-bottom: 5px solid #0056b3; /* Línea inferior de un azul más oscuro */
+}
+
+h1 {
+    font-family: 'Brush Script MT', cursive; /* Fuente estilizada para el título */
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #0056b3; /* Azul oscuro para los subtítulos */
+}
+
+.form-container {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #007BFF; /* Borde azul claro para los campos de entrada */
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #0056b3; /* Borde azul oscuro cuando el campo está enfocado */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Botón más oscuro al hacer hover */
+}
+
+#mensaje {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #cce5ff; /* Fondo suave de azul claro para el mensaje de éxito */
+    color: #004085; /* Color azul más oscuro para el texto */
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 18px;
+    border: 1px solid #b8daff; /* Borde más suave de azul */
+}
